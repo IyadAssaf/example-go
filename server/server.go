@@ -32,7 +32,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
   count = count + 1
 
   // preparing the text that we're going to return
-  outputText := fmt.Sprintf("helloo this is a number - %d" + count
+  outputText := fmt.Sprintf("helloo this is a number - %d", count)
   
   // writing the text to the response
   w.Write([]byte(outputText))
