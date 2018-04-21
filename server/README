@@ -1,0 +1,19 @@
+# Setup
+- Install the Go programming language - https://golang.org/dl/
+- Install a good text editor, VSCode has really good support for Go - https://code.visualstudio.com/Download
+
+# Example project
+- Check out the file called server.go, i've added some comments in there to help
+- Open up your terminal once Go is installed, change your directory to this folder and write `go run server.go`. Click enter to submit the text
+- A server should now be running on port 8080 on your computer
+- Visit http://localhost:8080 in your browser to see if it works. You should see some text returned
+- To stop the server you should be able to press Ctrl and C to stop the process
+
+# Things to try
+- Make the numbers double every time you visit the webisite
+- Alternate between returning 2 pieces of text
+- Return the time
+- Add another route to the server which returns something different. For example http://localhost:8080/iyadissupercool
+
+# Resources
+- The tour for Go is really good. It has a way to try out the code in your browser too - https://tour.golang.org
